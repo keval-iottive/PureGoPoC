@@ -10,6 +10,8 @@ import UIKit
 class SplashVC: UIViewController {
 
     //MARK: - Instance Variable
+    var timerObj : Timer? = nil
+    
     
     
     //MARK: - IBOutlet
@@ -21,6 +23,7 @@ class SplashVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupTheme()
+        setupTimer()
     }
     
     //MARK: - IBActions
@@ -32,5 +35,15 @@ class SplashVC: UIViewController {
         self.lblTitle.textColor = ThemeManager.sharedInstance.textColor
         self.lblTitle.text = "PureGo"
     }
+    
+    fileprivate func setupTimer() {
+        timerObj = Timer.scheduledTimer(timeInterval: 3, target: self, selector: #selector(handleRootView), userInfo: nil, repeats: true)
+    }
+    
+    @objc private func handleRootView() {
+        
+    }
+
+
     
 }
