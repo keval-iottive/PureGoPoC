@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>6e400001-b5a3-f393-e0a9-e50e24dcca9e</key>
+	<dict>
+		<key>6e400003-b5a3-f393-e0a9-e50e24dcca9e</key>
+		<dict>
+			<key>name</key>
+			<string>readCommand</string>
+			<key>isObservable</key>
+			<true/>
+			<key>type</key>
+			<string>data</string>
+		</dict>
+		<key>6e400002-b5a3-f393-e0a9-e50e24dcca9e</key>
+		<dict>
+			<key>name</key>
+			<string>writeCommand</string>
+			<key>type</key>
+			<string>data</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
